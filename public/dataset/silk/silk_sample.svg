@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+  <defs>
+    <linearGradient id="silk-sheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#581c87"/>
+      <stop offset="35%" stop-color="#7e22ce"/>
+      <stop offset="65%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#6b21a8"/>
+    </linearGradient>
+    <pattern id="silk-weave" width="8" height="8" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="8" y2="8" stroke="#e9d5ff" stroke-width="0.75" opacity="0.4"/>
+    </pattern>
+  </defs>
+  <rect width="600" height="400" fill="url(#silk-sheen)"/>
+  <rect width="600" height="400" fill="url(#silk-weave)" opacity="0.6"/>
+  <!-- Satin Glint Rays -->
+  <path d="M 100 -50 L 300 450 L 220 450 L 50 -50 Z" fill="#ffffff" opacity="0.15"/>
+  <path d="M 350 -50 L 550 450 L 480 450 L 300 -50 Z" fill="#ffffff" opacity="0.1"/>
+  <text x="300" y="360" font-family="'Plus Jakarta Sans', sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">SILK TEXTILE SAMPLE</text>
+  <text x="300" y="380" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" fill="#f3e8ff" text-anchor="middle">Lustrous Natural Protein Satin Weave</text>
+</svg>
